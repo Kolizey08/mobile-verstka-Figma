@@ -1,0 +1,430 @@
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+.rod1 {
+    width: 100%;
+}
+.blok1 {
+    width: 100%;
+    height: 116px;
+}
+.blok1-1 {
+    width: 100%;
+    height: 61.87px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.blok1-2 {
+    padding-left:  25px;
+    font-family: 'Homemade Apple', cursive;
+}
+.blok1-3 {
+    font-family: 'Gilroy';
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+}
+.blok1-3 > a {
+    text-decoration: none;
+    color: black;
+}
+.blok1-4 {
+padding-right: 20px;
+font-family: 'Gilroy';
+font-size: 18px;
+}
+.button {
+    color: #F7941E;
+    border: 1px solid #F7941E;
+}
+.rod2 {
+    width: 100%;
+    height: 100vw;
+}
+.rod3 {
+    width: 100%;
+    height: 50vw;
+    display: flex;
+}
+.blok3-1 {
+    width: 50%;
+    height: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blok3-1text {
+ width: 433px;
+ height: 411px;
+}
+.blok3-2 {
+    width: 50%;
+    height: 50vw;
+    background-color: blue;
+}
+
+.blok3-2 img {
+width: 100%;
+height: 100%;
+}
+.shrift1 {
+    font-size: 56px;
+}
+.shrift2 {
+    font-size: 20px;
+}
+.shrift3 {
+    font-size: 18px;
+    background-color: #F7941E;
+    border-radius: 5px;
+    color: #FFFFFF;
+    border: #F7941E;
+    width: 200px;
+    height: 60px;
+}
+
+.shrift3:hover {
+    background-color: #a36416;
+    cursor: pointer;
+    transition: .2s linear;
+}
+.shrift3:active {
+    background-color: #794910;
+}
+.rod4{
+    width: 100%;
+    height: 50%;
+    display: flex;
+}
+.blok4-1 {
+    width: 50%;
+}
+.blok4-1 img {
+    width: 100%;
+}
+.blok4-2 {
+    width: 50%;
+    height: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+.text-big {
+    font-size: 32px;
+}
+.text-2 {
+    font-size: 20px;
+}
+p > button {
+    color: #F7941E;
+    border: 2px solid #F7941E;
+    border-radius: 5px;
+    width: 200px;
+    height: 60px;
+    font-size: 18px;
+}
+.blok4-2text {
+    width: 441px;
+    height: 332px;
+}
+.rod5 {
+    width: 100%;
+    height: 820px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.rod5a1 {
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 100%;
+}
+.rod5text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.kartinki {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.blok5-1 {
+    width: 422px;
+    height: 39px;
+    text-align: center;
+}
+.blok5-2 {
+    width: 454px;
+    height: 25px;
+    text-align: center;
+}
+.text1 {
+    font-size: 32px;
+    text-align: center;
+}
+.text2 {
+    font-size: 18px;
+    text-align: center;
+}
+.blok5-3 {
+    width: 270px;
+    height: 436px;
+}
+.blok5-3:hover{
+    box-shadow: 5px 5px 8px 5px rgba(0, 0, 0, 0.2);
+
+}
+.blok5-3-1 {
+    width: 100%;
+    height: 65%;
+}
+.blok5-3-1 img {
+    max-width: 100%;
+}
+
+.blok5-3-2 {
+    width: 100%;
+    height: 35%;
+    font-size: 20px;
+}
+.blok5-3-2 > p {
+    font-size: 14px;
+}
+.blok5-4 {
+    width: 270px;
+    height: 436px;
+    transition: 0.5;
+}
+.blok5-4-1 {
+    width: 100%;
+    height: 65%;
+}
+.blok5-4-1 img {
+    max-width: 100%;
+}
+.blok5-4-2 {
+    width: 100%;
+    height: 35%;
+    font-size: 20px;
+}
+.blok5-4:hover{
+    box-shadow: 5px 5px 8px 5px rgba(0, 0, 0, 0.2);
+
+}
+.blok5-4-2 > p {
+    font-size: 14px;
+}
+.blok5-5 {
+    width: 270px;
+    height: 436px;
+}
+.blok5-5:hover{
+    box-shadow: 5px 5px 8px 5px rgba(0, 0, 0, 0.2);
+
+}
+.blok5-5-1 {
+    width: 100%;
+    height: 65%;
+}
+.blok5-5-1 img {
+    max-width: 100%;
+}
+.blok5-5-2 {
+    width: 100%;
+    height: 35%;
+    font-size: 20px;
+}
+.blok5-5-2 > p {
+    font-size: 14px;
+}
+.blok5-6 {
+    width: 270px;
+    height: 436px;
+}
+.blok5-6:hover{
+    box-shadow: 5px 5px 8px 5px rgba(0, 0, 0, 0.2);
+
+}
+.blok5-6-1 {
+    width: 100%;
+    height: 65%;
+}
+.blok5-6-1 img {
+    max-width: 100%;
+}
+.blok5-6-2 {
+    width: 100%;
+    height: 35%;
+    font-size: 20px;
+}
+.blok5-6-2 > p {
+    font-size: 14px;
+}
+.oranje {
+    width: 100%;
+    height: 240px;
+    background-color: #F7941E;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.textjranje {
+    font-size: 32px;
+line-height: 140.62%;
+}
+
+.button1 {
+    width: 200px;
+    height: 48px;
+    background-color: black;
+    color: #FFFFFF;
+    font-size: 18px;
+line-height: 22px;
+border-radius: 10px;
+}
+
+.button2 {
+    width: 200px;
+    height: 48px;
+    background-color: #F7941E;
+    color: black;
+    border: 1px solid black;
+    font-size: 18px;
+line-height: 22px;
+border-radius: 10px;   
+}
+.rod8big {
+    width: 100%;
+    height: 1026px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rod8sled {
+    width: 80%;
+    height: 80%;
+}
+.text3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 60px;
+}
+.text3-1 {
+    font-size: 32px;
+}
+.text3-2 {
+    font-size: 18px;
+}
+.foto4 {
+    width: 35%;
+}
+.foto4 img {
+    width: 100%;
+}
+.blok8-1 {
+    display: flex;
+    background-color: #231F20;
+}
+.blok8text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 45px;
+}
+.Mr {
+    font-size: 14px;
+    color: #FFFFFF;
+}
+.The {
+    font-size: 48px;
+    color: #FFFFFF;
+}
+.Read {
+    font-size: 18px;
+    color: #FFFFFF;
+}
+.blok8-2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+.Dat {
+    font-size: 24px;
+}
+.Lor {
+    font-size: 18px;
+}
+.Rea {
+    font-size: 14px;
+}
+.text4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 290px;
+    width: 570px;
+}
+.text5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 290px;
+    width: 570px;
+}
+.text4:hover {
+    box-shadow: 5px 5px 8px 5px rgba(0, 0, 0, 0.2); 
+}
+.text5:hover {
+    box-shadow: 5px 5px 8px 5px rgba(0, 0, 0, 0.2); 
+}
+.rod9 {
+    width: 100%;
+    height: 410px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rod9sled {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+hr {
+    width: 100%;
+}
+.verh {
+    display: flex;
+    justify-content: space-evenly;
+}
+.centr {
+    display: flex;
+    width: 500px;
+    text-align: center;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-top: 50px;
+
+}
+.niz {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    width: 250px;
+    margin: 50px auto 0;
+    margin-top: 100px;
+}
+.siz {
+    text-decoration: none;
+}
+.log1 {
+    font-family:'Homemade Apple', cursive;
+    color: #F7941E;  
+}
